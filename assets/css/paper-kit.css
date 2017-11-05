@@ -6005,9 +6005,14 @@ textarea.form-control {
   opacity: 1;
 }
 
-.page-header .content-center {
-  margin-top: 85px;
-}
+.page-header #intro {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+  }
 
 .moving-clouds {
   position: absolute;
